@@ -182,7 +182,7 @@ S3_ENDPOINT=s3.domain.com
 S3_REGION=eu-west-3
 S3_USE_SSL=true
 
-AUTHENTICATION_API_KEY=429683C4C977415CAAFCCE10F7D57E11
+AUTHENTICATION_API_KEY=EJDCUMSYHAKDQEEFQGOSXNNWWSIVIHUQ
 AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
 LANGUAGE=en
 EOL
@@ -194,7 +194,7 @@ version: '3.8'
 services:
   api:
     container_name: evolution_api
-    image: atendai/evolution-api:v2.1.1
+    image: evoapicloud/evolution-api:latest
     restart: always
     ports:
       - 8081:8080
